@@ -1,0 +1,32 @@
+h1 {
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    color: #E7B99F;
+}
+svg {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+div.tooltip {
+    position: absolute;
+    text-align: center;
+    width: 120px;
+    height: 50px;
+    padding: 3px;
+    font: 15px 'Quicksand', sans-serif;;
+    background: #E7B99F;
+    border: 0px;
+    border-radius: 8px;
+    pointer-events: none;
+}
+.axisBeige line{
+    stroke: #E7B99F;
+}
+.axisBeige path{
+    stroke: #E7B99F;
+}
+.axisBeige text{
+    fill: #E7B99F;
+}
